@@ -3,8 +3,11 @@ __author__ = 'greg'
 
 # prompt the user for the number we are going to use 
 def main():
+    #primenumbers is a Prime -tara
     primenumbers = Prime()
+    #getting the user imput... -tar
     number = int(input("Enter a number: "))
+    #list all prime numbers less than or equal to the user input -tara
     primenumbers.get_primes(number)
     
 
